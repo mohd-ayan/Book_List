@@ -1,0 +1,16 @@
+.moving-text {
+    white-space: nowrap;
+    display: inline-block;
+    animation: scroll-left 12s linear infinite;
+    padding-left: 100%;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
